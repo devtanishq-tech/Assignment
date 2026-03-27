@@ -8,24 +8,24 @@ Here’s how the project is organized:
 
 project/
 ├── backend/
-│ ├── config/ # DB connection & Passport setup
-│ ├── controllers/ # Business logic (auth, dashboard, data)
-│ ├── middleware/ # Auth guards & error handling
-│ ├── models/ # Mongoose schemas
-│ ├── routes/ # Route definitions
-│ ├── views/ # EJS templates (server-rendered pages)
-│ ├── server.js # Entry point
-│ └── .env.example
+│   ├── config/              # DB connection & Passport setup
+│   ├── controllers/         # Business logic (auth, dashboard, data)
+│   ├── middleware/          # Auth guards & error handling
+│   ├── models/              # Mongoose schemas
+│   ├── routes/              # Route definitions
+│   ├── views/               # EJS templates (server-rendered pages)
+│   ├── server.js            # Entry point
+│   └── .env.example
 │
 └── frontend/
-├── src/
-│ ├── context/ # Global state (Auth)
-│ ├── hooks/ # Custom hooks
-│ ├── services/ # API layer (Axios)
-│ ├── components/ # Reusable UI
-│ ├── pages/ # Screens (Login, Dashboard, etc.)
-│ └── App.jsx
-└── .env.example
+    ├── src/
+    │   ├── context/         # Global state (Auth)
+    │   ├── hooks/           # Custom hooks
+    │   ├── services/        # API layer (Axios)
+    │   ├── components/      # Reusable UI
+    │   ├── pages/           # Screens (Login, Dashboard, etc.)
+    │   └── App.jsx
+    └── .env.example
 
 The idea is to keep things modular and easy to scale.
 
